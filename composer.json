@@ -1,0 +1,24 @@
+{
+    "name": "moise-nsingi/site-hopital",
+    "homepage": "https://github.com/Moiseng",
+    "authors": [
+        {
+            "name": "Moïse Nsingi",
+            "email": "nsingi-moise@hotmail.com",
+            "homepage": "https://github.com/Moiseng",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0",
+        "filp/whoops": "^2.7"
+    }
+}
