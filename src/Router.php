@@ -61,7 +61,7 @@ final class Router
      * @return Router
      * @throws \Exception
      */
-    public function match(string $url, string $view, string $viewName): self
+    public function postAndGet(string $url, string $view, string $viewName): self
     {
         $this->router->map("POST|GET", $url, $view, $viewName);
         return $this;
@@ -94,11 +94,15 @@ final class Router
         $router = $this;
         if ($view === null) {
             $view = "error/e404";
+            require $this->viewPath . DIRECTORY_SEPARATOR . $view . ".php";
+            exit();
         }
         ob_start();
         require $this->viewPath . DIRECTORY_SEPARATOR . $view . ".php";
         $content = ob_get_clean();
-        require $this->viewPath . DIRECTORY_SEPARATOR . "layouts/default". ".php";
+        if ($view !== null) {
+            require $this->viewPath . DIRECTORY_SEPARATOR . "layouts/default". ".php";
+        }
         return $this;
     }
 

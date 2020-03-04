@@ -1,0 +1,15 @@
+@mixin boxShadowHeader($value) {
+  -webkit-box-shadow: $value;
+  -moz-box-shadow: $value;
+  box-shadow: $value;
+}
+
+@mixin displayFlex($properties) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: $properties;
+  height: 50px;
+}
+

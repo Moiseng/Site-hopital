@@ -12,5 +12,6 @@ $whoops = (new Run())
 
 $router =(new Router(dirname(__DIR__ ) . "/views"))
     ->get("/", "index", "home")
+    ->get("/contact", "contact", "contact")
     ->run();
 
