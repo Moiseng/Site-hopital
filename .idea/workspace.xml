@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e6f7892-6d8d-4e16-ac58-0b6dff1c7588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo-wide.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Site-hopital.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Site-hopital.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/error/e404.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/error/e404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/.sass-cache/512e7a59aa7c795c7cd232b10178244e2403830f/compass.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/.sass-cache/512e7a59aa7c795c7cd232b10178244e2403830f/compass.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/css/compass.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/css/compass.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/sass/compass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/sass/compass.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/default.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="330">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="e#42#57#0#PHP" expanded="true" />
               </folding>
@@ -43,13 +40,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-174">
-              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="526">
+              <caret line="713" selection-start-line="713" selection-end-line="755" selection-end-column="10" />
               <folding>
-                <element signature="n#div#0;n#!!top" />
                 <element signature="n#section#0;n#!!top" />
                 <element signature="n#section#1;n#!!top" />
                 <element signature="n#section#2;n#!!top" />
+                <element signature="n#section#3;n#!!top" />
                 <element signature="n#section#4;n#!!top" />
                 <element signature="n#section#5;n#!!top" />
                 <element signature="n#section#7;n#!!top" />
@@ -65,7 +62,6 @@
                 <element signature="n#div#4;n#div#1;n#section#10;n#!!top" />
                 <element signature="n#div#1;n#div#4;n#div#1;n#section#10;n#!!top" />
                 <element signature="n#div#5;n#div#1;n#section#10;n#!!top" />
-                <element signature="n#section#11;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -74,30 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/styles/sass/compass.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="1634" column="33" selection-start-line="1634" selection-start-column="33" selection-end-line="1634" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="54" column="349" selection-start-line="54" selection-start-column="349" selection-end-line="54" selection-end-column="349" />
-              <folding>
-                <element signature="n#section#1;n#!!top" />
-                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/styles/css/compass.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3345">
-              <caret line="1820" column="18" selection-start-line="1820" selection-start-column="18" selection-end-line="1820" selection-end-column="18" />
+            <state relative-caret-position="231">
+              <caret line="160" column="67" lean-forward="true" selection-start-line="160" selection-start-column="67" selection-end-line="160" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -105,17 +79,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/styles/sass/config.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="286">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layouts/default.php">
+        <entry file="file://$PROJECT_DIR$/public/styles/css/compass.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="264" column="35" selection-start-line="264" selection-start-column="35" selection-end-line="264" selection-end-column="35" />
+            <state relative-caret-position="637">
+              <caret line="1820" column="18" selection-start-line="1820" selection-start-column="18" selection-end-line="1820" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/about.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="3" selection-end-column="12" />
+              <folding>
+                <element signature="n#section#1;n#!!top" />
+                <element signature="n#section#2;n#!!top" />
+                <element signature="n#section#3;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Router.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
+            <state relative-caret-position="257">
               <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
             </state>
           </provider>
@@ -132,21 +120,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="439" column="64" selection-start-line="439" selection-start-column="64" selection-end-line="439" selection-end-column="64" />
+            <state relative-caret-position="552">
+              <caret line="542" column="55" selection-start-line="542" selection-start-column="55" selection-end-line="542" selection-end-column="55" />
               <folding>
                 <element signature="n#CarouselTouchPlugin#0" />
                 <element signature="n#Carousel#0" />
+                <element signature="n#Parallax#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/js.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/layouts/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="290">
+              <caret line="66" column="104" selection-start-line="66" selection-start-column="104" selection-end-line="66" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -167,6 +156,13 @@
       <find>paral</find>
       <find>graphi</find>
       <find>contact</find>
+      <find>about</find>
+      <find>items_pa</find>
+      <find>item_part</find>
+      <find>partne</find>
+      <find>.content</find>
+      <find>boxsha</find>
+      <find>CarouselTouch</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,20 +190,21 @@
         <option value="$PROJECT_DIR$/views/layouts/default.html" />
         <option value="$PROJECT_DIR$/public/styles/compilator.bat" />
         <option value="$PROJECT_DIR$/public/styles/config.rb" />
-        <option value="$PROJECT_DIR$/public/styles/sass/config.scss" />
         <option value="$PROJECT_DIR$/views/error/default.php" />
         <option value="$PROJECT_DIR$/views/error/e404.php" />
         <option value="$PROJECT_DIR$/bdd.sql" />
         <option value="$PROJECT_DIR$/src/BddConnection.php" />
         <option value="$PROJECT_DIR$/src/Router.php" />
         <option value="$PROJECT_DIR$/public/styles/css/compass.css" />
-        <option value="$PROJECT_DIR$/views/index.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
-        <option value="$PROJECT_DIR$/views/layouts/default.php" />
-        <option value="$PROJECT_DIR$/public/js/js.js" />
-        <option value="$PROJECT_DIR$/public/styles/sass/compass.scss" />
         <option value="$PROJECT_DIR$/views/contact.php" />
+        <option value="$PROJECT_DIR$/public/styles/sass/compass.scss" />
+        <option value="$PROJECT_DIR$/public/styles/sass/config.scss" />
+        <option value="$PROJECT_DIR$/public/js/js.js" />
+        <option value="$PROJECT_DIR$/views/index.php" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/views/about.php" />
+        <option value="$PROJECT_DIR$/views/layouts/default.php" />
       </list>
     </option>
   </component>
@@ -221,7 +218,7 @@
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -250,13 +247,27 @@
               <item name="Site-hopital" type="b2602c69:ProjectViewProjectNode" />
               <item name="Site-hopital" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Site-hopital" type="b2602c69:ProjectViewProjectNode" />
               <item name="Site-hopital" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Site-hopital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Site-hopital" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Site-hopital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Site-hopital" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Site-hopital" type="b2602c69:ProjectViewProjectNode" />
@@ -267,18 +278,6 @@
               <item name="Site-hopital" type="b2602c69:ProjectViewProjectNode" />
               <item name="Site-hopital" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Site-hopital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Site-hopital" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Site-hopital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Site-hopital" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -338,7 +337,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207486000" />
+    <option name="totallyTimeSpent" value="228461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -463,13 +462,6 @@
     <entry file="file://$PROJECT_DIR$/public/images/2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -490,9 +482,6 @@
     <entry file="file://$PROJECT_DIR$/public/images/img1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/logo-wide.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/news3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -509,57 +498,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="22">
+          <caret line="5001" lean-forward="true" selection-start-line="5001" selection-end-line="5001" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding>
-            <element signature="e#42#57#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/css/compass.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="1820" column="18" selection-start-line="1820" selection-start-column="18" selection-end-line="1820" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/sass/config.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="286">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+    <entry file="file://$PROJECT_DIR$/public/styles/sass/compass.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="439" column="64" selection-start-line="439" selection-start-column="64" selection-end-line="439" selection-end-column="64" />
-          <folding>
-            <element signature="n#CarouselTouchPlugin#0" />
-            <element signature="n#Carousel#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="264" column="35" selection-start-line="264" selection-start-column="35" selection-end-line="264" selection-end-column="35" />
+        <state relative-caret-position="231">
+          <caret line="160" column="67" lean-forward="true" selection-start-line="160" selection-start-column="67" selection-end-line="160" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="526">
+          <caret line="713" selection-start-line="713" selection-end-line="755" selection-end-column="10" />
           <folding>
-            <element signature="n#div#0;n#!!top" />
             <element signature="n#section#0;n#!!top" />
             <element signature="n#section#1;n#!!top" />
             <element signature="n#section#2;n#!!top" />
+            <element signature="n#section#3;n#!!top" />
             <element signature="n#section#4;n#!!top" />
             <element signature="n#section#5;n#!!top" />
             <element signature="n#section#7;n#!!top" />
@@ -575,33 +563,58 @@
             <element signature="n#div#4;n#div#1;n#section#10;n#!!top" />
             <element signature="n#div#1;n#div#4;n#div#1;n#section#10;n#!!top" />
             <element signature="n#div#5;n#div#1;n#section#10;n#!!top" />
-            <element signature="n#section#11;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/css/compass.css">
+    <entry file="file://$PROJECT_DIR$/public/images/logo-wide.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3345">
-          <caret line="1820" column="18" selection-start-line="1820" selection-start-column="18" selection-end-line="1820" selection-end-column="18" />
+        <state relative-caret-position="552">
+          <caret line="542" column="55" selection-start-line="542" selection-start-column="55" selection-end-line="542" selection-end-column="55" />
+          <folding>
+            <element signature="n#CarouselTouchPlugin#0" />
+            <element signature="n#Carousel#0" />
+            <element signature="n#Parallax#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/sass/compass.scss">
+    <entry file="file://$PROJECT_DIR$/src/Router.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="1634" column="33" selection-start-line="1634" selection-start-column="33" selection-end-line="1634" selection-end-column="33" />
+        <state relative-caret-position="257">
+          <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/contact.php">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="54" column="349" selection-start-line="54" selection-start-column="349" selection-end-line="54" selection-end-column="349" />
+        <state relative-caret-position="330">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#42#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="3" selection-end-column="12" />
           <folding>
             <element signature="n#section#1;n#!!top" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#section#2;n#!!top" />
+            <element signature="n#section#3;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="66" column="104" selection-start-line="66" selection-start-column="104" selection-end-line="66" selection-end-column="104" />
         </state>
       </provider>
     </entry>

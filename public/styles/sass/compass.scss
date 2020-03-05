@@ -1592,6 +1592,16 @@ header {
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../images/bg6.jpg") fixed;
   background-size: cover;
   height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  h2 {
+    font-size: 3em;
+    color: #222222;
+    font-family: sans-serif;
+  }
 }
 
 .contact__types {
@@ -1637,16 +1647,129 @@ header {
 
     div.contact__form__top {
       width: 60%;
-      background-color: red;
     }
 
     div.contact__form__map {
-      background-color: blue;
       width: 40%;
     }
 
   }
 }
+
+.contact__form__top {
+  h3 {
+    font-size: 1.5em;
+    color: #222222;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+
+  .separator__form {
+    border: 1px solid #005b88;
+    width: 9%;
+    height: 2px;
+    margin-bottom: 5%;
+  }
+}
+
+.contact__form__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  ::placeholder {
+    padding-left: 8px;
+    color: #b8b8b8;
+    font-size: 1.1em;
+    padding-top: 5px;
+  }
+
+  .form__group {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 18px;
+
+    .form__control {
+      width: 90%;
+      height: 45px;
+    }
+
+    label {
+      color: #777777;
+      font-weight: 600;
+      font-family: sans-serif;
+      padding-bottom: 5px;
+    }
+
+    input{
+      border: 1px solid #eeeeee;
+    }
+
+    input:focus {
+      border-color: #cccccc;
+      @include boxShadowHeader(inset 0 1px 1px rgba(0,0,0,.075));
+      transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+
+    :active , :focus {
+      outline: none;
+    }
+  }
+
+  .form__message {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+
+    .message {
+      height: 115px;
+      resize: none;
+      border: 1px solid #eeeeee;
+    }
+
+    .message:focus {
+      border-color: #cccccc;
+      @include boxShadowHeader(inset 0 1px 1px rgba(0,0,0,.075));
+      transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+  }
+
+  button {
+    background-color: #005b88;
+    border: 1px solid #005b88;
+    color: #ffffff;
+    padding: 10px;
+    width: 28%;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  button:hover {
+    background-color: #003955;
+    border-color: #00324b;
+  }
+}
+
+/*========================================= PAGE ABOUT ===============================*/
+.about_page {
+  width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../images/bg7.jpg") fixed;
+  background-size: cover;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  h2 {
+    font-size: 3em;
+    color: #222222;
+    font-family: sans-serif;
+  }
+}
+
 
 
 /*================= SLIDER =================*/

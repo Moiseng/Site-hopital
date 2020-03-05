@@ -1,3 +1,7 @@
+<?php
+$page = $_SERVER["PHP_SELF"] ;
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -28,46 +32,49 @@
                     </ul>
                 </div>
             </div>
-            <div class="top-bar-both-bar second-bar">
-                <div class="top-bar-logo">
-                    LOGO
-                </div>
-                <div class="top-bar-mail">
-                    <div>
-                        <i class="fas fa-envelope"></i>
-                        <a href="#">MAIL US TODAY</a>
-                        <h5>info@maildomain.com</h5>
+            <?php if ($_SERVER["REQUEST_URI"] !== "/contact") : ?>
+                <div class="top-bar-both-bar second-bar">
+                    <div class="top-bar-logo">
+                        <img src="/images/logo-wide.png" alt="">
+                    </div>
+                    <div class="top-bar-mail">
+                        <div>
+                            <i class="fas fa-envelope"></i>
+                            <a href="#">MAIL US TODAY</a>
+                            <h5>info@maildomain.com</h5>
+                        </div>
+                    </div>
+                    <div class="top-bar-phone">
+                        <div>
+                            <i class="fas fa-phone-square-alt"></i>
+                            <a href="#">CALL US FOR MORE DETAILS</a>
+                            <h5>+(33) 0000 000</h5>
+                        </div>
+                    </div>
+                    <div class="top-bar-location">
+                        <div>
+                            <i class="far fa-building"></i>
+                            <a href="#">COMPANY LOCATION</a>
+                            <h5>13 Rue de Jean, Paris</h5>
+                        </div>
                     </div>
                 </div>
-                <div class="top-bar-phone">
-                    <div>
-                        <i class="fas fa-phone-square-alt"></i>
-                        <a href="#">CALL US FOR MORE DETAILS</a>
-                        <h5>+(33) 0000 000</h5>
-                    </div>
-                </div>
-                <div class="top-bar-location">
-                    <div>
-                        <i class="far fa-building"></i>
-                        <a href="#">COMPANY LOCATION</a>
-                        <h5>13 Rue de Jean, Paris</h5>
-                    </div>
-                </div>
-            </div>
+            <?php endif; ?>
         </section>
         <!--===== Navbar web ======-->
         <header>
             <ul class="pain">
-                <li class="active"><a href="<?= $router->url("home") ?>">Acceuil</a></li>
-                <li><a href="#">à Propos</a></li>
+                <li <?php if(strpos($page,'acceuil')) echo ' class="active"'; ?>><a href="<?= $router->url("home") ?>">Acceuil</a></li>
+                <li <?php if(strpos($page,'a-propos')) echo ' class="active"'; ?>><a href="<?= $router->url("about") ?>">à Propos</a></li>
                 <li><a href="#">Link</a></li>
-                <li><a href="<?= $router->url("contact") ?>">Nous contacter</a></li>
+                <li <?php if(strpos($page,'contact')) echo ' class="active"'; ?>><a href="<?= $router->url("contact") ?>">Nous contacter</a></li>
             </ul>
             <a href="" class="logo">Register Now</a>
         </header>
 
         <?= $content ?>
     </div>
+
 
     <!--===================== FOOTER ====================-->
     <footer class="footer">
@@ -262,10 +269,7 @@
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="/js/jquery.counterup.min.js"></script>
-    <?php if ($_SERVER["REQUEST_URI"] === "/"): ?>
-    <script src="/js/main.js" async></script>
-    <?php endif; ?>
-    <script src="/js/js.js"></script>
+    <script src="/js/main.js"></script>
     <script>
         $(document).ready(function ($){
             $('.counter').counterUp({

@@ -1,13 +1,21 @@
-<section class="contact_page" id="contact_page__parallax">
+<?php
 
+$title = "Nous-Contacter"
+
+?>
+
+<section class="contact_page" id="contact_page__parallax">
+    <h2 class="contact__title">
+        Nous Contacter
+    </h2>
 </section>
 
 <section class="contact__types">
-    <h2>Have any Questions?</h2>
+    <h2>Avez vous des Questions?</h2>
     <div class="contact__types__content">
         <div>
             <i class="fas fa-phone-alt"></i>
-            <h4>Call Us</h4>
+            <h4>Appelez-Nous</h4>
             <p>Phone: +262 695 2601</p>
         </div>
         <div>
@@ -26,27 +34,28 @@
 <section class="contact__forms">
     <div class="contact__forms__contents">
         <div class="contact__form__top">
-            <h4>Vous souhaitez discuter ?</h4>
-            <form action="#">
+            <h3>Vous souhaitez discuter?</h3>
+            <div class="separator__form"></div>
+            <form action="#" class="contact__form__container">
                 <div class="form__group">
                     <label for="name">Nom *</label>
-                    <input type="text" name="name" placeholder="Entrez votre nom">
+                    <input type="text" class="form__control" id="name" name="name" placeholder="Entrez votre nom">
                 </div>
                 <div class="form__group">
                     <label for="email">Email *</label>
-                    <input type="email" name="email" placeholder="Entrez l'adresse email">
+                    <input type="email" class="form__control" id="email" name="email" placeholder="Entrez l'adresse email">
                 </div>
                 <div class="form__group">
                     <label for="subject">Sujet *</label>
-                    <input type="text" name="subject" placeholder="Sujet">
+                    <input type="text" class="form__control" id="subject" name="subject" placeholder="Sujet">
                 </div>
                 <div class="form__group">
                     <label for="phone">Téléphone</label>
-                    <input type="number" name="phone" placeholder="+33 000 000 00">
+                    <input type="number" class="form__control" id="phone" name="phone" placeholder="+33 000 000 00">
                 </div>
-                <div class="form__group">
+                <div class="form__group form__message">
                     <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Entrez le message"></textarea>
+                    <textarea name="message" class="message" id="message" placeholder="Entrez le message"></textarea>
                 </div>
                 <button type="submit">Envoyer le message</button>
             </form>

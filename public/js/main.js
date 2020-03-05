@@ -114,6 +114,7 @@ class Carousel{
             infinite: false,
             autoPlay: false,
             nextAndPrev: false,
+            time: 1500,
         }, options);
 
         /**
@@ -127,7 +128,7 @@ class Carousel{
                 this.playSlide = this.currentItem;
                 this.gotoItem(this.playSlide + 1, true);
                 this.playSlide++;
-            }, 2000)
+            }, this.options.time)
         }else if(this.options.autoPlay === false){
             clearInterval(this.interval)
         }
@@ -438,11 +439,28 @@ class Carousel{
 }
 
 /*==================== PARALLAX ==============================*/
+class Parallax {
+
+    constructor (id, option) {
+        this.element = id;
+        this.option = option;
+        const parallax = document.getElementById(this.element);
+        window.addEventListener("scroll", () => {
+            let offset = window.pageYOffset;
+            parallax.style.backgroundPositionY = offset * this.option + "px";
+        });
+    }
+}
 
 
 /*================ Gere le chargement de script async ======================*/
 
 let onReady = () => {
+
+    new Parallax("graphic__parallax", 0.7);
+    new Parallax("testimonial__parallax", 1.1);
+    new Parallax("graphic__parallax__about", 0.7);
+
     /*============ CAROUSEL =================*/
     new Carousel(document.querySelector("#carousel1"), {
         /* nombre d'elements a scroller */
@@ -453,6 +471,7 @@ let onReady = () => {
         pagination: true,
         infinite: true,
         autoPlay: true,
+        time: 3000,
     });
 
     new Carousel(document.querySelector("#carousel2"), {
@@ -464,6 +483,7 @@ let onReady = () => {
         pagination: false,
         infinite: true,
         autoPlay: true,
+        time: 2000
     });
 
     new Carousel(document.querySelector("#carousel3"), {
@@ -475,7 +495,8 @@ let onReady = () => {
         pagination: false,
         infinite: true,
         autoPlay: true,
-        nextAndPrev: false
+        nextAndPrev: false,
+        time: 2000,
     });
 
     new Carousel(document.querySelector("#carousel4"), {
@@ -487,11 +508,25 @@ let onReady = () => {
         pagination: false,
         infinite: true,
         autoPlay: true,
-        nextAndPrev: false
+        nextAndPrev: false,
+        time: 2000
     });
 };
 
-
+let onBlocking = () => {
+    new Carousel(document.querySelector("#carousel6"), {
+        /* nombre d'elements a scroller */
+        slidesToScroll: 1,
+        /* nombre d'elements visible */
+        slidesVisible: 6,
+        loop: false,
+        pagination: false,
+        infinite: true,
+        autoPlay: true,
+        nextAndPrev: false,
+        time: 2000
+    });
+};
 
 
 
@@ -500,7 +535,9 @@ let onReady = () => {
  */
 if (document.readyState !== "loading"){
     onReady();
+    onBlocking();
 }
 
 
 document.addEventListener("DOMContentLoaded",onReady);
+document.addEventListener("DOMContentLoaded",onBlocking);

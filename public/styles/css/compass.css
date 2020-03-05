@@ -1652,20 +1652,30 @@ header ul li:hover a {
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../images/bg6.jpg") fixed;
   background-size: cover;
   height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+/* line 1600, ../sass/compass.scss */
+.contact_page h2 {
+  font-size: 3em;
+  color: #222222;
+  font-family: sans-serif;
 }
 
-/* line 1597, ../sass/compass.scss */
+/* line 1607, ../sass/compass.scss */
 .contact__types {
   font-family: sans-serif;
   width: 100%;
   text-align: center;
 }
-/* line 1602, ../sass/compass.scss */
+/* line 1612, ../sass/compass.scss */
 .contact__types h2 {
   margin-top: 6%;
 }
 
-/* line 1607, ../sass/compass.scss */
+/* line 1617, ../sass/compass.scss */
 .contact__types__content {
   display: flex;
   justify-content: space-around;
@@ -1673,23 +1683,23 @@ header ul li:hover a {
   width: 75%;
   margin: 6% 12.5% 5% 12.5%;
 }
-/* line 1614, ../sass/compass.scss */
+/* line 1624, ../sass/compass.scss */
 .contact__types__content .fas {
   color: #005b88;
   font-size: 2em;
 }
-/* line 1619, ../sass/compass.scss */
+/* line 1629, ../sass/compass.scss */
 .contact__types__content p {
   color: #777777;
 }
 
-/* line 1626, ../sass/compass.scss */
+/* line 1636, ../sass/compass.scss */
 .contact__forms {
   width: 100%;
   overflow: hidden;
   background-color: #f7f7f7;
 }
-/* line 1631, ../sass/compass.scss */
+/* line 1641, ../sass/compass.scss */
 .contact__forms .contact__forms__contents {
   width: 75%;
   margin: 6% 12.5% 5% 12.5%;
@@ -1697,38 +1707,156 @@ header ul li:hover a {
   justify-content: space-evenly;
   overflow: hidden;
 }
-/* line 1638, ../sass/compass.scss */
+/* line 1648, ../sass/compass.scss */
 .contact__forms .contact__forms__contents div.contact__form__top {
   width: 60%;
-  background-color: red;
 }
-/* line 1643, ../sass/compass.scss */
+/* line 1652, ../sass/compass.scss */
 .contact__forms .contact__forms__contents div.contact__form__map {
-  background-color: blue;
   width: 40%;
 }
 
+/* line 1660, ../sass/compass.scss */
+.contact__form__top h3 {
+  font-size: 1.5em;
+  color: #222222;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+/* line 1668, ../sass/compass.scss */
+.contact__form__top .separator__form {
+  border: 1px solid #005b88;
+  width: 9%;
+  height: 2px;
+  margin-bottom: 5%;
+}
+
+/* line 1676, ../sass/compass.scss */
+.contact__form__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* line 1680, ../sass/compass.scss */
+.contact__form__container ::placeholder {
+  padding-left: 8px;
+  color: #b8b8b8;
+  font-size: 1.1em;
+  padding-top: 5px;
+}
+/* line 1687, ../sass/compass.scss */
+.contact__form__container .form__group {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-bottom: 18px;
+}
+/* line 1693, ../sass/compass.scss */
+.contact__form__container .form__group .form__control {
+  width: 90%;
+  height: 45px;
+}
+/* line 1698, ../sass/compass.scss */
+.contact__form__container .form__group label {
+  color: #777777;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding-bottom: 5px;
+}
+/* line 1705, ../sass/compass.scss */
+.contact__form__container .form__group input {
+  border: 1px solid #eeeeee;
+}
+/* line 1709, ../sass/compass.scss */
+.contact__form__container .form__group input:focus {
+  border-color: #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+/* line 1715, ../sass/compass.scss */
+.contact__form__container .form__group :active, .contact__form__container .form__group :focus {
+  outline: none;
+}
+/* line 1720, ../sass/compass.scss */
+.contact__form__container .form__message {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+/* line 1725, ../sass/compass.scss */
+.contact__form__container .form__message .message {
+  height: 115px;
+  resize: none;
+  border: 1px solid #eeeeee;
+}
+/* line 1731, ../sass/compass.scss */
+.contact__form__container .form__message .message:focus {
+  border-color: #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+/* line 1738, ../sass/compass.scss */
+.contact__form__container button {
+  background-color: #005b88;
+  border: 1px solid #005b88;
+  color: #ffffff;
+  padding: 10px;
+  width: 28%;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+/* line 1749, ../sass/compass.scss */
+.contact__form__container button:hover {
+  background-color: #003955;
+  border-color: #00324b;
+}
+
+/*========================================= PAGE ABOUT ===============================*/
+/* line 1756, ../sass/compass.scss */
+.about_page {
+  width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../images/bg7.jpg") fixed;
+  background-size: cover;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+/* line 1766, ../sass/compass.scss */
+.about_page h2 {
+  font-size: 3em;
+  color: #222222;
+  font-family: sans-serif;
+}
+
 /*================= SLIDER =================*/
-/* line 1653, ../sass/compass.scss */
+/* line 1776, ../sass/compass.scss */
 .item {
   background-color: #fff;
   transition: transform 0.3s;
   transform: translate3d(0, -1px, 0);
 }
 
-/* line 1659, ../sass/compass.scss */
+/* line 1782, ../sass/compass.scss */
 .item .slider-header {
   display: block;
   width: 100%;
   height: 600px;
 }
 
-/* line 1665, ../sass/compass.scss */
+/* line 1788, ../sass/compass.scss */
 .item__body {
   padding: 25px;
 }
 
-/* line 1669, ../sass/compass.scss */
+/* line 1792, ../sass/compass.scss */
 .items {
   position: relative;
 }
@@ -1736,31 +1864,31 @@ header ul li:hover a {
 /**
 CAROUSEL
  */
-/* line 1676, ../sass/compass.scss */
+/* line 1799, ../sass/compass.scss */
 .carousel {
   position: relative;
   overflow: hidden;
 }
 
-/* line 1681, ../sass/compass.scss */
+/* line 1804, ../sass/compass.scss */
 .carousel__container {
   transition: transform .3s;
   transform: translate3d(0, 0, 0);
 }
 
-/* line 1686, ../sass/compass.scss */
+/* line 1809, ../sass/compass.scss */
 .carousel__container::after {
   content: '';
   clear: both;
   display: table;
 }
 
-/* line 1692, ../sass/compass.scss */
+/* line 1815, ../sass/compass.scss */
 .carousel__item {
   float: left;
 }
 
-/* line 1696, ../sass/compass.scss */
+/* line 1819, ../sass/compass.scss */
 .fa-arrow-right, .fa-arrow-left {
   position: absolute;
   width: 40px;
@@ -1780,19 +1908,19 @@ CAROUSEL
   color: #000;
 }
 
-/* line 1715, ../sass/compass.scss */
+/* line 1838, ../sass/compass.scss */
 .fa-arrow-right:hover, .fa-arrow-left:hover {
   transform: scale(1.2);
 }
 
-/* line 1719, ../sass/compass.scss */
+/* line 1842, ../sass/compass.scss */
 .fa-arrow-left {
   right: auto;
   left: 2px;
   background: #FFF;
 }
 
-/* line 1725, ../sass/compass.scss */
+/* line 1848, ../sass/compass.scss */
 .carousel__next--hidden, .carousel__prev--hidden {
   visibility: hidden;
 }
@@ -1800,7 +1928,7 @@ CAROUSEL
 /*
     Button de Pagination
  */
-/* line 1732, ../sass/compass.scss */
+/* line 1855, ../sass/compass.scss */
 .carousel__pagination {
   position: absolute;
   bottom: 0;
@@ -1810,7 +1938,7 @@ CAROUSEL
   display: none;
 }
 
-/* line 1741, ../sass/compass.scss */
+/* line 1864, ../sass/compass.scss */
 .carousel__pagination__button {
   background: #fff;
   height: 10px;
@@ -1823,13 +1951,13 @@ CAROUSEL
   cursor: pointer;
 }
 
-/* line 1753, ../sass/compass.scss */
+/* line 1876, ../sass/compass.scss */
 .carousel__pagination__button--active, .carousel__pagination__button:hover {
   transform: scale(1.4);
 }
 
 @media screen and (min-width: 800px) {
-  /* line 1758, ../sass/compass.scss */
+  /* line 1881, ../sass/compass.scss */
   .carousel__pagination {
     display: block;
   }
