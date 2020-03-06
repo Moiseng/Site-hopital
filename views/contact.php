@@ -1,6 +1,6 @@
 <?php
 
-$title = "Nous-Contacter"
+$title = "Nous-Contacter";
 
 ?>
 
@@ -36,7 +36,7 @@ $title = "Nous-Contacter"
         <div class="contact__form__top">
             <h3>Vous souhaitez discuter?</h3>
             <div class="separator__form"></div>
-            <form action="#" class="contact__form__container">
+            <form action="#" method="post" class="contact__form__container">
                 <div class="form__group">
                     <label for="name">Nom *</label>
                     <input type="text" class="form__control" id="name" name="name" placeholder="Entrez votre nom">

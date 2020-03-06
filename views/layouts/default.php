@@ -65,9 +65,9 @@ $page = $_SERVER["PHP_SELF"] ;
         <header>
             <ul class="pain">
                 <li <?php if(strpos($page,'acceuil')) echo ' class="active"'; ?>><a href="<?= $router->url("home") ?>">Acceuil</a></li>
-                <li <?php if(strpos($page,'a-propos')) echo ' class="active"'; ?>><a href="<?= $router->url("about") ?>">à Propos</a></li>
+                <li <?php if(strpos($page,'a-propos')) echo ' class="active"'; ?>><a href="<?= $router->url("about") ?>">À-Propos</a></li>
                 <li><a href="#">Link</a></li>
-                <li <?php if(strpos($page,'contact')) echo ' class="active"'; ?>><a href="<?= $router->url("contact") ?>">Nous contacter</a></li>
+                <li <?php if(strpos($page,'contact')) echo ' class="active"'; ?>><a href="<?= $router->url("contact") ?>">Nous-contacter</a></li>
             </ul>
             <a href="" class="logo">Register Now</a>
         </header>

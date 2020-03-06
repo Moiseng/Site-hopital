@@ -1,11 +1,11 @@
 <?php
 
-$title = "A-Propos";
+$title = "À-Propos";
 ?>
 
 <section class="about_page">
     <h2 class="about__title">
-        A Propos de Nous
+        À Propos de Nous
     </h2>
 </section>
 

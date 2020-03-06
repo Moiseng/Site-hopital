@@ -1962,3 +1962,401 @@ CAROUSEL
     display: block;
   }
 }
+/*============================================ 404 PAGE =========================================*/
+/* line 1889, ../sass/compass.scss */
+.error__body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  background: linear-gradient(90deg, #2f3640 23%, #181b20 100%);
+  overflow: hidden;
+}
+
+/* line 1897, ../sass/compass.scss */
+.moon {
+  background: linear-gradient(90deg, #d0d0d0 48%, #919191 100%);
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  top: -100px;
+  left: -300px;
+  border-radius: 100%;
+  -webkit-box-shadow: opx 0px 30px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: opx 0px 30px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: opx 0px 30px -4px rgba(0, 0, 0, 0.5);
+}
+
+/* line 1908, ../sass/compass.scss */
+.crater {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.6;
+  background: linear-gradient(90deg, #7a7a7a 38%, #c3c3c3 100%);
+}
+
+/* line 1915, ../sass/compass.scss */
+.crater1 {
+  width: 60px;
+  height: 180px;
+  top: 250px;
+  left: 500px;
+}
+
+/* line 1922, ../sass/compass.scss */
+.crater2 {
+  width: 40px;
+  height: 80px;
+  top: 650px;
+  left: 340px;
+  transform: rotate(55deg);
+}
+
+/* line 1930, ../sass/compass.scss */
+.crater3 {
+  width: 65px;
+  height: 120px;
+  top: -20px;
+  left: 40px;
+  transform: rotate(55deg);
+}
+
+/* line 1938, ../sass/compass.scss */
+.star {
+  background: grey;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  transform: rotate(250deg);
+  opacity: 0.4;
+  animation-name: shimer;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes shimer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+/* line 1960, ../sass/compass.scss */
+.star1 {
+  top: 40%;
+  left: 50%;
+  animation-delay: 1s;
+}
+
+/* line 1966, ../sass/compass.scss */
+.star2 {
+  top: 60%;
+  left: 90%;
+  animation-delay: 3s;
+}
+
+/* line 1972, ../sass/compass.scss */
+.star3 {
+  top: 10%;
+  left: 70%;
+  animation-delay: 2s;
+}
+
+/* line 1978, ../sass/compass.scss */
+.star4 {
+  top: 90%;
+  left: 40%;
+}
+
+/* line 1983, ../sass/compass.scss */
+.star5 {
+  top: 20%;
+  left: 30%;
+  animation-delay: 0.5s;
+}
+
+/* line 1989, ../sass/compass.scss */
+.error {
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  transform: translateY(-60%);
+  font-family: "Righteous", cursive;
+  color: #343e49;
+}
+/* line 1997, ../sass/compass.scss */
+.error .error__title {
+  font-size: 10em;
+}
+/* line 2001, ../sass/compass.scss */
+.error .error__subtitle {
+  font-size: 2rem;
+}
+/* line 2005, ../sass/compass.scss */
+.error .error__description {
+  opacity: 0.5;
+  margin-bottom: 10%;
+}
+/* line 2010, ../sass/compass.scss */
+.error .error_btn {
+  min-width: 7rem;
+  margin-top: 3rem;
+  margin-right: 0.5em;
+  padding: 0.5em 2em;
+  outline: none;
+  border: 2px solid #2f3640;
+  background-color: transparent;
+  border-radius: 8em;
+  transition-duration: 0.2s;
+  text-decoration: none;
+  color: #576375;
+  font-size: 0.75em;
+  font-family: "Righteous", cursive;
+}
+/* line 2026, ../sass/compass.scss */
+.error .error_btn:hover {
+  color: #21252c;
+}
+/* line 2030, ../sass/compass.scss */
+.error .error__btn__active {
+  background-color: #e67e22;
+  border: 2px solid #e37e22;
+  color: #ffffff;
+}
+/* line 2036, ../sass/compass.scss */
+.error .error__btn__active:hover {
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+/* line 2042, ../sass/compass.scss */
+.astronaut {
+  position: absolute;
+  width: 185px;
+  height: 300px;
+  left: 70%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(20deg) scale(1.2);
+}
+
+/* line 2051, ../sass/compass.scss */
+.head {
+  background-color: #ffffff;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 60px;
+  height: 60px;
+  border-radius: 2em;
+}
+/* line 2060, ../sass/compass.scss */
+.head .head-visor-flare1 {
+  background-color: #7f8fa6;
+  position: absolute;
+  top: 28px;
+  left: 40px;
+  width: 10px;
+  height: 10px;
+  opacity: 0.5;
+  border-radius: 2em;
+}
+/* line 2071, ../sass/compass.scss */
+.head .head-visor-flare2 {
+  background-color: #718093;
+  position: absolute;
+  top: 40px;
+  left: 38px;
+  width: 5px;
+  height: 5px;
+  opacity: 0.3;
+  border-radius: 2em;
+}
+
+/* line 2084, ../sass/compass.scss */
+.backpack {
+  background-color: #bfbfbf;
+  position: absolute;
+  top: 90px;
+  left: 47px;
+  width: 86px;
+  height: 90px;
+  border-radius: 8px;
+}
+
+/* line 2094, ../sass/compass.scss */
+.body__astronaut {
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 115px;
+  left: 55px;
+  width: 70px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+/* line 2104, ../sass/compass.scss */
+.body__chest {
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 140px;
+  left: 68px;
+  width: 45px;
+  height: 25px;
+  border-radius: 6px;
+}
+
+/* line 2114, ../sass/compass.scss */
+.arm-left1 {
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 127px;
+  left: 9px;
+  width: 65px;
+  height: 20px;
+  border-radius: 8px;
+  transform: rotate(-30deg);
+}
+
+/* line 2125, ../sass/compass.scss */
+.arm-left2 {
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 102px;
+  left: 7px;
+  width: 20px;
+  height: 45px;
+  border-radius: 8px;
+  transform: rotate(-12deg);
+  border-top-left-radius: 8em;
+  border-top-right-radius: 8em;
+}
+
+/* line 2138, ../sass/compass.scss */
+.arm-right1 {
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 113px;
+  left: 100px;
+  width: 65px;
+  height: 20px;
+  border-radius: 8px;
+  transform: rotate(-10deg);
+}
+
+/* line 2149, ../sass/compass.scss */
+.arm-right2 {
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 78px;
+  left: 141px;
+  width: 20px;
+  height: 45px;
+  border-radius: 8px;
+  transform: rotate(-10deg);
+  border-top-left-radius: 8em;
+  border-top-right-radius: 8em;
+}
+
+/* line 2162, ../sass/compass.scss */
+.arm-thumb-left {
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 110px;
+  left: 21px;
+  width: 10px;
+  height: 6px;
+  border-radius: 8em;
+  transform: rotate(-65deg);
+}
+
+/* line 2173, ../sass/compass.scss */
+.arm-thumb-right {
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 90px;
+  left: 133px;
+  width: 10px;
+  height: 6px;
+  border-radius: 8em;
+  transform: rotate(20deg);
+}
+
+/* line 2184, ../sass/compass.scss */
+.wrist-left {
+  background-color: #e67e22;
+  position: absolute;
+  top: 122px;
+  left: 6.5px;
+  width: 21px;
+  height: 4px;
+  border-radius: 8em;
+  transform: rotate(-15deg);
+}
+
+/* line 2195, ../sass/compass.scss */
+.wrist-right {
+  background-color: #e67e22;
+  position: absolute;
+  top: 98px;
+  left: 141px;
+  width: 21px;
+  height: 4px;
+  border-radius: 8em;
+  transform: rotate(-10deg);
+}
+
+/* line 2206, ../sass/compass.scss */
+.leg-left {
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 188px;
+  left: 50px;
+  width: 23px;
+  height: 75px;
+  transform: rotate(10deg);
+}
+
+/* line 2216, ../sass/compass.scss */
+.leg-right {
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 188px;
+  left: 108px;
+  width: 23px;
+  height: 75px;
+  transform: rotate(-10deg);
+}
+
+/* line 2226, ../sass/compass.scss */
+.foot-left {
+  background-color: #ffffff;
+  position: absolute;
+  top: 243px;
+  left: 43px;
+  width: 28px;
+  height: 20px;
+  transform: rotate(10deg);
+  border-radius: 3px;
+  border-top-left-radius: 8em;
+  border-top-right-radius: 8em;
+  border-bottom: 4px solid #e67e22;
+}
+
+/* line 2240, ../sass/compass.scss */
+.foot-right {
+  background-color: #ffffff;
+  position: absolute;
+  top: 243px;
+  left: 111px;
+  width: 28px;
+  height: 20px;
+  transform: rotate(-10deg);
+  border-radius: 3px;
+  border-top-left-radius: 8em;
+  border-top-right-radius: 8em;
+  border-bottom: 4px solid #e67e22;
+}
