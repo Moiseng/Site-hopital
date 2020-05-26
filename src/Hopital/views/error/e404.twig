@@ -29,10 +29,10 @@
         <div class="error__title">404</div>
         <div class="error__subtitle">Hmmm...</div>
         <div class="error__description">Il semble que l'un des développeurs se soit endormi</div>
-        <a href="<?= $router->url("home") ?>" class="error_btn error__btn__active">
+        <a href="{{ path("hopital.index") }}" class="error_btn error__btn__active">
             ACCEUIL
         </a>
-        <a href="<?= $router->url("contact") ?>" class="error_btn">
+        <a href="{{ path("hopital.contact") }}" class="error_btn">
             CONTACT
         </a>
     </div>

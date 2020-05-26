@@ -11,14 +11,23 @@
     ],
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "Framework\\": "src/Framework",
+            "Tests\\": "tests"
         }
     },
     "require": {
-        "altorouter/altorouter": "^2.0"
+        "mezzio/mezzio-router": "^3.1",
+        "guzzlehttp/psr7": "^1.6",
+        "http-interop/response-sender": "^1.0",
+        "squizlabs/php_codesniffer": "^3.5",
+        "mezzio/mezzio-fastroute": "^3.0",
+        "twig/twig": "^3.0",
+        "php-di/php-di": "^6.1"
     },
     "require-dev": {
         "symfony/var-dumper": "^5.0",
-        "filp/whoops": "^2.7"
+        "filp/whoops": "^2.7",
+        "phpunit/phpunit": "^9.1"
     }
 }

@@ -1,18 +1,25 @@
 <?php
 
-require "../vendor/autoload.php";
+use App\Hopital\PublicModule;
 
-use App\Router;
-use Whoops\Handler\PrettyPageHandler;
-use Whoops\Run;
+require dirname(__DIR__) . "/vendor/autoload.php";
 
-$whoops = (new Run())
-    ->pushHandler(new PrettyPageHandler())
-    ->register();
+$modules = [
+    PublicModule::class
+];
 
-$router =(new Router(dirname(__DIR__ ) . "/views"))
-    ->get("/acceuil", "index", "home")
-    ->get("/contact", "contact", "contact")
-    ->get("/a-propos", "about", "about")
-    ->run();
+$builder = new \DI\ContainerBuilder();
+$builder->addDefinitions(dirname(__DIR__) . "/config/config.php");
+foreach ($modules as $module) {
+    if ($module::DEFINITIONS) {
+        $builder->addDefinitions($module::DEFINITIONS);
+    }
+}
+$container = $builder->build();
 
+$app = new \Framework\App($container, $modules);
+
+if (php_sapi_name() !== "cli") {
+    $response =$app->run(\GuzzleHttp\Psr7\ServerRequest::fromGlobals());
+    \Http\Response\send($response);
+}
